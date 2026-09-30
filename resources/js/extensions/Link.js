@@ -21,7 +21,7 @@ export const CustomLink = Link.extend({
         default: null,
       },
       target: {
-        default: this.options.HTMLAttributes.target,
+        default: this.options.HTMLAttributes.target ?? null,
       },
       hreflang: {
         default: null,
